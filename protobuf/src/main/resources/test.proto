@@ -1,0 +1,31 @@
+syntax = "proto2";
+
+package com.hero;
+
+option java_package = "com.hero";
+
+option java_outer_classname = "HeroAttribute";
+
+message Hero {
+    required string name = 1;
+    required int32 id = 2;
+    required int64 level = 3;
+    required int64 fight = 4;
+
+    enum RoleType {
+        WARRIOR = 0;
+        MAGER = 1;
+        PASTOR = 2;
+    }
+    required RoleType role_type = 5;
+    message UniqueSystem {
+        required int32 hores = 1;
+        required int32 wings = 2;
+    }
+
+    required UniqueSystem unique_system = 6;
+}
+
+message HeroList {
+    repeated Hero hero = 1;
+}
