@@ -5,6 +5,9 @@ package leetcode;
  */
 public class CourseSchedule_207 {
     public static boolean canFinish(int numCourses, int[][] prerequisites) {
+        int[][] a;
+
+
         return false;
     }
 
