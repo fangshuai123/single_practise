@@ -56,6 +56,7 @@ public class jianR {
         }
         System.out.println(list);
 
+
         //        for (int i = list.size() - 1; i >= 0; i--) {
         //            if (list.get(i).getKey() < 3) {
         //                list.remove(i);
