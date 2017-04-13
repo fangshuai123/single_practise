@@ -50,6 +50,7 @@ public class jianR {
         list.add(new Pair<Long, Integer>(6L, 2));
         list.add(new Pair<Long, Integer>(7L, 2));
 
+
         while (list.size() > 0 && list.get(0).getKey() < 7) {
             list.remove(0);
         }
